@@ -1,0 +1,10 @@
+hello@example.com
+hello@example.co.uk             // .co.uk, 2 tld
+hello-2020@example.com          // -
+hello.2020@example.com          // .
+hello_2020@example.com          // _
+h@example.com                   // local-part one letter
+h@example-example.com           // domain contains a hyphen -
+h@example-example-example.com   // domain contains two hyphens - -
+h@example.example-example.com   // domain contains . -
+hello.world-2020@example.com    // local-part contains . -   
